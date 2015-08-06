@@ -23,7 +23,8 @@ Add `.jscsrc` config to your project
 
 ```js
 {
-  "preset": "./node_modules/jscs-config-nordnet/jscsrc.json"
+  "plugins:" ["config-nordnet"],
+  "preset": "nordnet"
 }
 ```
 
