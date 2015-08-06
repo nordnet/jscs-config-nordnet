@@ -14,7 +14,7 @@ Nordnet follows Javascript styleguide suggested by Airbnb. See [Airbnb's Javascr
 Install `JSCS` and `jscs-config-nordnet` plugin as dev dependencies
 
 ```bash
-npm install jscs jscs-config-nordnet --save-dev
+npm install --save-dev jscs jscs-config-nordnet babel-jscs 
 ```
 
 ## Configuration
@@ -23,7 +23,7 @@ Add `.jscsrc` config to your project
 
 ```js
 {
-  "plugins:" ["config-nordnet"],
+  "plugins": ["jscs-config-nordnet"],
   "preset": "nordnet"
 }
 ```
