@@ -1,0 +1,26 @@
+{
+  "name": "jscs-config-nordnet",
+  "version": "0.0.1",
+  "description": "Nordnet JSCS config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordnet/jscs-config-nordnet.git"
+  },
+  "keywords": [
+    "JSCS",
+    "Nordnet",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Dmitry Demyankov <dmitry.demyankov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nordnet/jscs-config-nordnet/issues"
+  },
+  "homepage": "https://github.com/nordnet/jscs-config-nordnet#readme"
+}
