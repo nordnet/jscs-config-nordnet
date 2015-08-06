@@ -2,8 +2,9 @@
   "name": "jscs-config-nordnet",
   "version": "0.0.1",
   "description": "Nordnet JSCS config",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/nordnet/jscs-config-nordnet/issues"
   },
-  "homepage": "https://github.com/nordnet/jscs-config-nordnet#readme"
+  "homepage": "https://github.com/nordnet/jscs-config-nordnet#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "chai": "^3.2.0",
+    "jscs": "^2.0.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.8.0"
+  }
 }
