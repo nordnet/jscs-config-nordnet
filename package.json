@@ -1,6 +1,6 @@
 {
   "name": "jscs-config-nordnet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nordnet JSCS config",
   "main": "lib/index.js",
   "scripts": {
