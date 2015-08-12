@@ -4,7 +4,8 @@
   "description": "Nordnet JSCS config",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "postpublish": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
