@@ -10,6 +10,6 @@
     "dist/*",
     "node_modules/**"
   ],
-
-  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties"
+  "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
+  "validateQuoteMarks": null
 }
